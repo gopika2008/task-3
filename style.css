@@ -12,10 +12,11 @@
     font-size: x-large;
     background-color: rgba(250, 248, 245, 0.973);
     color: rgb(18, 3, 18);
-    border-radius: 7px;
+    border-radius: 20px;
     margin-bottom: 20px;
     text-align: right;
     border: 2px solid black;
+    width: 300px;
 
 }
 .buttons{
@@ -45,8 +46,8 @@ button{
     background-repeat: no-repeat;
     opacity: 1;
  }
- h2{
-    color: rgb(4, 1, 7);
+ h1{
+    color: rgb(145, 143, 146);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     border-color: black;
