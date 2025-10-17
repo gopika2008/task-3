@@ -1,19 +1,21 @@
 .calculator {
-    width: 300px;
+    width: 350px;
     height: 500px;
     padding: 20px;
-    background-color: black;
-    box-shadow: 3px 2px 3px rgb(37, 27, 27);
-    border-radius: 5px;
+    background-color: rgba(141, 124, 179, 0.588);
+    box-shadow: 3px 2px 3px rgb(27, 28, 29);
+    border-radius: 10px;
+     border: 2px solid black;
 }
 .display{
     padding: 20px;
     font-size: x-large;
-    background-color: rgba(186, 189, 186, 0.289);
-    color: aliceblue;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    background-color: rgba(250, 248, 245, 0.973);
+    color: rgb(18, 3, 18);
+    border-radius: 7px;
+    margin-bottom: 20px;
     text-align: right;
+    border: 2px solid black;
 
 }
 .buttons{
@@ -25,10 +27,27 @@ button{
     padding: 20px;
     background-color: rgb(239, 234, 234);
     border-color: black;
-    font-family: calc();
+    font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
 }
  button:hover{
-    background-color: rgb(94, 96, 96);
+    background-color: rgb(213, 155, 230);
+    color: rgb(60, 26, 65);
+ }
+ .as{
+    background-color: rgb(139, 99, 163);
+ }
+ body{
+    background-image: url("https://wallpapercat.com/w/full/b/9/6/2103714-3840x2160-desktop-4k-universe-background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+ }
+ h2{
+    color: rgb(4, 1, 7);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    border-color: black;
  }
